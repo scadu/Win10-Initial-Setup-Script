@@ -1,0 +1,67 @@
+##########
+# Win 10 / Server 2016 / Server 2019 Initial Setup Script - zomg turbo preset
+# Source: https://github.com/Disassembler0/Win10-Initial-Setup-Script
+# Usage:
+# From elevated shell:
+# powershell.exe -NoProfile -ExecutionPolicy Bypass -File Win10.ps1 -include Win10.psm1 -preset Turbo.preset
+
+##########
+
+### Require administrator privileges ###
+RequireAdmin
+
+### Privacy Tweaks ###
+DisableWiFiSense
+DisableAppSuggestions
+EnableLocationTracking
+DisableAdvertisingID
+
+# Restrict Windows Update P2P delivery optimization to computers in local network - Default since 1703
+SetP2PUpdateLocal
+
+### Security Tweaks ###
+DisableSMBServer
+EnableFirewall
+EnableDefender
+
+# Enable Core Isolation Memory Integrity - Part of Windows Defender System Guard virtualization-based security - Applicable since 1803
+EnableCIMemoryIntegrity
+
+DisableAutoplay
+DisableAutorun
+
+### Service Tweaks ###
+EnableFastStartup
+
+### UI Tweaks ###
+ShowTaskManagerDetails
+ShowSmallTaskbarIcons
+SetTaskbarCombineAlways
+HideTaskbarPeopleIcon
+ShowTrayIcons
+HideRecentlyAddedApps
+
+# Adjusts visual effects for performance - Disables animations, transparency etc. but leaves font smoothing and miniatures enabled
+SetVisualFXPerformance
+
+SetSoundSchemeNone
+DisableStartupSound
+
+### Explorer UI Tweaks ###
+ShowKnownExtensions
+ShowHiddenFiles
+
+
+### Application Tweaks ###
+UninstallThirdPartyBloat
+DisableAdobeFlash
+InstallLinuxSubsystem
+InstallHyperV
+
+### Unpinning ###
+UnpinStartMenuTiles
+UnpinTaskbarIcons
+
+### Auxiliary Functions ###
+WaitForKey
+Restart
