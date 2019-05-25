@@ -23,6 +23,7 @@ SetP2PUpdateLocal
 DisableSMBServer
 EnableFirewall
 EnableDefender
+SetUACHigh
 
 # Enable Core Isolation Memory Integrity - Part of Windows Defender System Guard virtualization-based security - Applicable since 1803
 EnableCIMemoryIntegrity
