@@ -15,6 +15,7 @@ DisableWiFiSense
 DisableAppSuggestions
 EnableLocationTracking
 DisableAdvertisingID
+DisableWebSearch
 
 # Restrict Windows Update P2P delivery optimization to computers in local network - Default since 1703
 SetP2PUpdateLocal
