@@ -13,9 +13,12 @@ RequireAdmin
 ### Privacy Tweaks ###
 DisableWiFiSense
 DisableAppSuggestions
-EnableLocationTracking
+EnableLocation
 DisableAdvertisingID
 DisableWebSearch
+DisableCortana
+DisableDiagTrack
+
 
 # Restrict Windows Update P2P delivery optimization to computers in local network - Default since 1703
 SetP2PUpdateLocal
@@ -28,16 +31,30 @@ SetUACHigh
 DisableAutoplay
 DisableAutorun
 
+### Network Tweaks ###
+DisableRemoteAssistance
+
 ### Service Tweaks ###
 EnableFastStartup
+EnableUpdateMSProducts
+DisableUpdateRestart
+DisableMaintenanceWakeUp
+DisableAutoplay
+DisableAutorun
 
 ### UI Tweaks ###
+DisableLockScreen
+DisableLockScreenBlur
 ShowTaskManagerDetails
 ShowSmallTaskbarIcons
 SetTaskbarCombineAlways
 HideTaskbarPeopleIcon
 ShowTrayIcons
 HideRecentlyAddedApps
+HideNetworkFromLockScreen
+HideShutdownFromLockScreen
+SetSoundSchemeNone
+DisableStartupSound
 
 # Adjusts visual effects for performance - Disables animations, transparency etc. but leaves font smoothing and miniatures enabled
 SetVisualFXPerformance
@@ -48,13 +65,18 @@ DisableStartupSound
 ### Explorer UI Tweaks ###
 ShowKnownExtensions
 ShowHiddenFiles
-
+DisableThumbsDBOnNetwork
 
 ### Application Tweaks ###
+UninstallOneDrive
 UninstallThirdPartyBloat
+UninstallMsftBloat
 DisableAdobeFlash
+DisableXboxFeatures
 InstallLinuxSubsystem
 InstallHyperV
+UninstallXPSPrinter
+RemoveFaxPrinter
 
 ### Unpinning ###
 UnpinStartMenuTiles
