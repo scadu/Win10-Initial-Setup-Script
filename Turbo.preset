@@ -19,7 +19,6 @@ DisableWebSearch
 DisableCortana
 DisableDiagTrack
 
-
 # Restrict Windows Update P2P delivery optimization to computers in local network - Default since 1703
 SetP2PUpdateLocal
 
@@ -43,6 +42,7 @@ DisableAutoplay
 DisableAutorun
 
 ### UI Tweaks ###
+EnableTitleBarColor
 DisableLockScreen
 DisableLockScreenBlur
 ShowTaskManagerDetails
