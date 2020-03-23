@@ -66,6 +66,7 @@ DisableStartupSound
 ShowKnownExtensions
 ShowHiddenFiles
 DisableThumbsDBOnNetwork
+DisableThumbnails
 
 ### Application Tweaks ###
 UninstallOneDrive
