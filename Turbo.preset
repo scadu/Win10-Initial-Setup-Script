@@ -37,8 +37,8 @@ DisableRemoteAssistance
 EnableFastStartup
 EnableUpdateMSProducts
 DisableUpdateRestart
-DisableUpdateAutoDownload
 DisableMaintenanceWakeUp
+EnableUpdateAutoDownload
 DisableAutoplay
 DisableAutorun
 
