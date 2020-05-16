@@ -17,7 +17,8 @@ EnableLocation
 DisableAdvertisingID
 DisableWebSearch
 DisableCortana
-DisableDiagTrack
+EnableDiagTrack
+EnableFeedback
 
 # Restrict Windows Update P2P delivery optimization to computers in local network - Default since 1703
 SetP2PUpdateLocal
@@ -59,9 +60,7 @@ DisableStartupSound
 
 # Adjusts visual effects for performance - Disables animations, transparency etc. but leaves font smoothing and miniatures enabled
 SetVisualFXPerformance
-
 SetSoundSchemeNone
-DisableStartupSound
 
 ### Explorer UI Tweaks ###
 ShowKnownExtensions
@@ -72,11 +71,9 @@ DisableThumbnails
 ### Application Tweaks ###
 UninstallOneDrive
 UninstallThirdPartyBloat
-UninstallMsftBloat
 DisableAdobeFlash
-DisableXboxFeatures
-InstallLinuxSubsystem
 InstallHyperV
+InstallLinuxSubsystem
 UninstallXPSPrinter
 RemoveFaxPrinter
 
