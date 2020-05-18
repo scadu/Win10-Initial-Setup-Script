@@ -13,12 +13,8 @@ RequireAdmin
 ### Privacy Tweaks ###
 DisableWiFiSense
 DisableAppSuggestions
-EnableLocation
 DisableAdvertisingID
 DisableWebSearch
-DisableCortana
-EnableDiagTrack
-EnableFeedback
 
 # Restrict Windows Update P2P delivery optimization to computers in local network - Default since 1703
 SetP2PUpdateLocal
@@ -37,21 +33,15 @@ DisableRemoteAssistance
 ### Service Tweaks ###
 EnableFastStartup
 EnableUpdateMSProducts
-DisableUpdateRestart
-DisableMaintenanceWakeUp
-EnableUpdateAutoDownload
 DisableAutoplay
 DisableAutorun
 
 ### UI Tweaks ###
 EnableTitleBarColor
-DisableLockScreen
-DisableLockScreenBlur
 ShowTaskManagerDetails
 ShowSmallTaskbarIcons
 SetTaskbarCombineAlways
 HideTaskbarPeopleIcon
-ShowTrayIcons
 HideRecentlyAddedApps
 HideNetworkFromLockScreen
 HideShutdownFromLockScreen
@@ -78,8 +68,8 @@ UninstallXPSPrinter
 RemoveFaxPrinter
 
 ### Unpinning ###
-UnpinStartMenuTiles
-UnpinTaskbarIcons
+# UnpinStartMenuTiles
+# UnpinTaskbarIcons
 
 ### Auxiliary Functions ###
 # WaitForKey
